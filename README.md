@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ### Crear base de datos en postgres 
 
-Como usuario postgres para una configuracion mas rapida, si quieren pueden hacer con un schema y usuario especifico y asignarlos en settings.py
+Como usuario postgres para una configuracion mas rapida, si quieren pueden hacerlo con un schema y usuario especifico y asignarlos en settings.py
 ```powershell
 psql -U postgres
 ```
