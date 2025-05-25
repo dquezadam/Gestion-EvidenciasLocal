@@ -11,8 +11,9 @@ cd backend
 pip install -r requirements.txt
 ```
 
-### Crear deb en postgres
+### Crear base de datos en postgres 
 
+Como usuario postgres para una configuracion mas rapida, si quieren pueden hacer con un schema y usuario especifico y asignarlos en settings.py
 ```powershell
 psql -U postgres
 ```
